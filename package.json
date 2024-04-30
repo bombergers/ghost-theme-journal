@@ -1,7 +1,7 @@
 {
-    "name": "journal",
-    "description": "A Ghost theme",
-    "version": "1.0.0",
+    "name": "ghost-theme-journal",
+    "description": "A modified theme for the Ghost publishing platform",
+    "version": "0.0.1",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
@@ -44,17 +44,27 @@
         "custom": {
             "navigation_layout": {
                 "type": "select",
-                "options": ["Logo on the left", "Logo in the middle", "Stacked"],
+                "options": [
+                    "Logo on the left",
+                    "Logo in the middle",
+                    "Stacked"
+                ],
                 "default": "Stacked"
             },
             "title_font": {
                 "type": "select",
-                "options": ["Modern sans-serif", "Elegant serif"],
+                "options": [
+                    "Modern sans-serif",
+                    "Elegant serif"
+                ],
                 "default": "Modern sans-serif"
             },
             "body_font": {
                 "type": "select",
-                "options": ["Modern sans-serif", "Elegant serif"],
+                "options": [
+                    "Modern sans-serif",
+                    "Elegant serif"
+                ],
                 "default": "Modern sans-serif"
             }
         }
@@ -62,9 +72,11 @@
     "scripts": {
         "dev": "gulp",
         "test": "gscan .",
-        "zip": "gulp zip"
+        "zip": "gulp zip",
+        "release": "changeset tag"
     },
     "devDependencies": {
+        "@changesets/cli": "^2.27.1",
         "@tryghost/shared-theme-assets": "2.4.3",
         "autoprefixer": "10.4.19",
         "beeper": "2.1.0",
@@ -79,5 +91,6 @@
         "postcss": "8.4.38",
         "postcss-easy-import": "4.0.0",
         "pump": "3.0.0"
-    }
+    },
+    "packageManager": "pnpm@9.0.6"
 }
