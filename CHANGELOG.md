@@ -1,5 +1,12 @@
 # ghost-theme-journal
 
+## 0.3.3
+
+### Patch Changes
+
+- cc14461: Style: adjust element spacing
+- e1cadac: Fix: add missing date to pages
+
 ## 0.3.2
 
 ### Patch Changes
