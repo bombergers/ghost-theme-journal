@@ -14,7 +14,7 @@
                     </div>
 
                     {{#match pages.length "=" 1}}
-                        Additional content coming soon.
+                        Check back soon for more content.
                     {{/match}}
 
                     <button class="gh-loadmore gh-btn">Load more pages</button>
@@ -42,14 +42,14 @@
                             {{^if @member.paid}}
                                 <div class="gh-signup">
                                     {{^if @member}}
-                                        <p class="gh-signup-description">Sign up now to get access to the library of members-only issues.</p>
+                                       <p class="gh-signup-description">Content on this site is restricted to authorized personel only. Contact Bomberger's web development to request access.</p>
 
                                         <a class="gh-subscribe-input" href="#/portal/signup" data-portal="signup">
                                             <div class="gh-subscribe-input-text">
                                                 {{> icons/email}}
-                                                jamie@example.com
+                                                jsmith@bombergers.com
                                             </div>
-                                            <div class="gh-subscribe-input-btn">Subscribe</div>
+                                            <div class="gh-subscribe-input-btn">Sign In</div>
                                         </a>
                                     {{else}}
                                         {{#if @setting.paid_members_enabled}}
