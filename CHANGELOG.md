@@ -1,5 +1,11 @@
 # ghost-theme-journal
 
+## 0.4.0
+
+### Minor Changes
+
+- 0b4cb7d: Feat: add tag data to collection index
+
 ## 0.3.3
 
 ### Patch Changes
