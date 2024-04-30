@@ -12,9 +12,6 @@
             {{#if @site.comments_enabled}}
                 {{comment_count class="gh-card-comments"}}
             {{/if}}
-            {{^has visibility="public"}}
-                {{> icons/star}}
-            {{/has}}
         </footer>
     </a>
 </article>
