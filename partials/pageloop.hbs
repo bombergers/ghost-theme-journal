@@ -8,7 +8,7 @@
 
         <footer class="gh-card-meta">
             <span>Last updated</span>
-            <time class="gh-card-date" datetime="{{page.updated_at format="YYYY-MM-DD"}}">{{page.updated_at format="YYYY-MM-DD"}}</time>
+            <time class="gh-card-date" datetime="{{date updated_at format="YYYY-MM-DD"}}">{{date updated_at}}</time>
             <span class="gh-card-duration">{{reading_time}}</span>
             {{#if @site.comments_enabled}}
                 {{comment_count class="gh-card-comments"}}
