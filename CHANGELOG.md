@@ -1,5 +1,11 @@
 # ghost-theme-journal
 
+## 0.3.0
+
+### Minor Changes
+
+- 8eec0d9: Feat: add template, cleanup structure & content
+
 ## 0.2.0
 
 ### Minor Changes
