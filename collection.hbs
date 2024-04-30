@@ -2,6 +2,17 @@
 
 <main id="gh-main" class="gh-main gh-outer">
     <div class="gh-inner">
+        {{#tag}}
+            <section class="gh-pagehead" style="text-align:center;margin:auto;max-width:560px;transform:translateY(-3rem);">
+                <header class="gh-pagehead-content">
+                    <h1 class="gh-tag-name gh-pagehead-title" style="font-size:3.4rem;font-weight:700;">{{name}}</h1>
+                    <div class="gh-tag-description gh-pagehead-description" style="font-size:1.8rem;">
+                        {{description}}
+                    </div>
+                </header>
+            </section>
+        {{/tag}}
+
         {{^is "paged"}}
             {{#foreach posts limit="1"}}
                 <article class="gh-latest gh-card {{post_class}}">
