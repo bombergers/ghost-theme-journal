@@ -1,5 +1,11 @@
 # ghost-theme-journal
 
+## 0.3.1
+
+### Patch Changes
+
+- c098b1d: Fix: correct date format
+
 ## 0.3.0
 
 ### Minor Changes
