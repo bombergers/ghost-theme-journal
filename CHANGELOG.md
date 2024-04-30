@@ -1,5 +1,11 @@
 # ghost-theme-journal
 
+## 0.3.2
+
+### Patch Changes
+
+- 75d839f: Feat: add context headings, update verbaige
+
 ## 0.3.1
 
 ### Patch Changes
