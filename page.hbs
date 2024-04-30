@@ -7,6 +7,15 @@
 
         {{#match @page.show_title_and_feature_image}}
             <header class="gh-article-header gh-canvas">
+                <span class="gh-article-meta">
+                    {{#if updated_at}}
+                        Last updated - 
+                        <time datetime="{{date updated_at format="YYYY-MM-DD"}}">{{date updated_at}}</time>
+                    {{else}}
+                        Published - 
+                        <time datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
+                    {{/if}}
+                </span>
                 <h1 class="gh-article-title">{{title}}</h1>
 
                 {{#if custom_excerpt}}
