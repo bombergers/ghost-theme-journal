@@ -1,5 +1,12 @@
 # ghost-theme-journal
 
+## 0.4.1
+
+### Patch Changes
+
+- 5c020b9: Style: add margin to heading
+- c403583: Style: adjust logo position
+
 ## 0.4.0
 
 ### Minor Changes
