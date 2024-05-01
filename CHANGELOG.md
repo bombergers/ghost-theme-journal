@@ -1,5 +1,11 @@
 # ghost-theme-journal
 
+## 0.5.2
+
+### Patch Changes
+
+- 2d828cb: Fix: remove tag context
+
 ## 0.5.1
 
 ### Patch Changes
