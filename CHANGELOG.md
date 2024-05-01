@@ -1,5 +1,11 @@
 # ghost-theme-journal
 
+## 0.5.1
+
+### Patch Changes
+
+- ce25f56: Fix: merge duplicate templates, remove unused, update routes
+
 ## 0.5.0
 
 ### Minor Changes
