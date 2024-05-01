@@ -1,5 +1,15 @@
 # ghost-theme-journal
 
+## 0.5.0
+
+### Minor Changes
+
+- 5e286e1: Feat: add general template
+
+### Patch Changes
+
+- 18f3e6c: Style: update heading format
+
 ## 0.4.1
 
 ### Patch Changes
