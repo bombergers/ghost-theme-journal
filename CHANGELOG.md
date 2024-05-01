@@ -1,5 +1,15 @@
 # ghost-theme-journal
 
+## 1.0.0
+
+### Major Changes
+
+- 8b93b46: CI: bump version for production
+
+### Patch Changes
+
+- fe95b4b: Fix: correct heading level
+
 ## 0.5.3
 
 ### Patch Changes
