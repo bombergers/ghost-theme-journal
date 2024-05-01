@@ -3,16 +3,14 @@
 {{#get "posts" filter="tag:-[power-equipment-storefront,b2b-storefront,billing-portal,treemagnets,marketing]"}}
     <main id="gh-main" class="gh-main gh-outer">
         <div class="gh-inner">
-            {{#tag}}
-                <section style="text-align:center;margin:1.5rem auto 3.5rem;max-width:560px;transform:translateY(-3rem);">
-                    <header class="gh-pagehead-content">
-                        <h1 class="gh-tag-name gh-pagehead-title" style="font-size:3.4rem;font-weight:700;">General Updates</h1>
-                        <div class="gh-tag-description gh-pagehead-description" style="font-size:1.8rem;">
-                            Company-wide or non-project-specific changes to Bomberger's web systems or processes.
-                        </div>
-                    </header>
-                </section>
-            {{/tag}}
+            <section style="text-align:center;margin:1.5rem auto 3.5rem;max-width:560px;transform:translateY(-3rem);">
+                <header class="gh-pagehead-content">
+                    <h1 class="gh-tag-name gh-pagehead-title" style="font-size:3.4rem;font-weight:700;">General Updates</h1>
+                    <div class="gh-tag-description gh-pagehead-description" style="font-size:1.8rem;">
+                        Company-wide or non-project-specific changes to Bomberger's web systems or processes.
+                    </div>
+                </header>
+            </section>
 
             {{^is "paged"}}
                 {{#foreach posts limit="1"}}
