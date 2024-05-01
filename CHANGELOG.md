@@ -1,5 +1,11 @@
 # ghost-theme-journal
 
+## 0.5.3
+
+### Patch Changes
+
+- c9b24fe: Fix: add header to docs route
+
 ## 0.5.2
 
 ### Patch Changes
