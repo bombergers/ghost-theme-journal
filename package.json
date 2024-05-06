@@ -92,5 +92,5 @@
         "postcss-easy-import": "4.0.0",
         "pump": "3.0.0"
     },
-    "packageManager": "pnpm@9.0.6"
+    "packageManager": "pnpm@9.1.0"
 }
