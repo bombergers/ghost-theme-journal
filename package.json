@@ -76,7 +76,7 @@
         "release": "changeset tag"
     },
     "devDependencies": {
-        "@changesets/cli": "^2.27.1",
+        "@changesets/cli": "^2.27.2",
         "@tryghost/shared-theme-assets": "2.4.3",
         "autoprefixer": "10.4.19",
         "beeper": "2.1.0",
