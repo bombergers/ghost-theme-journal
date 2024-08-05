@@ -1,5 +1,11 @@
 # ghost-theme-journal
 
+## 1.0.1
+
+### Patch Changes
+
+- 4c88bbf: Fix: show only featured pages on route
+
 ## 1.0.0
 
 ### Major Changes
